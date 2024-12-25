@@ -1,0 +1,18 @@
+<div class="content fcc flex-col p-4 gap-2 w-screen h-screen">
+  <div class="fcc flex-row w-full justify-start items-center gap-4">
+    <div class="flex w-[250px] h-8 px-3 custom_input">
+      <input type="text" #gptInput spellcheck="false" (keyup)="gptInputkeyUp(gptInput.value)" required>
+    </div>
+    <button class="fcc custom_primary_btn w-[156px] h-[32px]" (click)="gpt4oChat()">
+      <span class="text-6b text-lsm">input</span>
+    </button>
+  </div>
+
+
+  <div class="fcc flex-col gap-4 w-full">
+    <textarea *ngFor="let res of gpt4oResQue" class="flex border-4d border-[1px] w-[500px]">
+      {{res}}
+    </textarea>
+  </div>
+</div>
+

@@ -1,0 +1,12 @@
+click==8.1.0
+colorama==0.4.4
+Flask==2.1.0
+Flask-Login==0.5.0
+Flask-SQLAlchemy==2.5.1
+SQLAlchemy==1.4.32
+typing-extensions==4.11.0
+Werkzeug==2.0.3
+zipp==3.7.0
+psycopg2-binary==2.9.9
+Flask_Cors==5.0.0
+openai==1.55.3
